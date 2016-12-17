@@ -1,0 +1,129 @@
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    padding-top: 70px;
+    background-color: #D0D9A4;
+}
+
+main {
+    font-family: "Arial" sans-serif;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    background-color: #85914E;
+    border-color: #85914E;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #D0D9A4;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-size: cover;
+    text-align: center;
+    border-radius: 15px;
+    background-image: url(images/image2.JPG);
+    color: #FFFFFF;
+    font-family: "Arial" sans-serif;
+    font-size:70%;
+    text-shadow: 3px 3px 2px #926F92;
+    word-wrap: break-word;
+}
+
+.email {
+    font-size: 25px;
+}
+
+a {
+    font-style: oblique;
+    text-decoration: none;
+}
+
+a:link {
+    color: #D0D9A4;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C998A7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.head {
+    color: #FFFFFF;
+    background-color: #A4687A;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: 
+}
+
+.about {
+    text-align: center;
+}
+
+#education p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#technical p {
+    text-align: center;
+}
+
+#technical ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#projects {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+figure {
+    font-style: italic;
+    display: inline-block;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #85914E;
+    color: #4F5A17;
+    text-align: center;
+    padding: 15px;
+}
