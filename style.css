@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    font-family: "Arial" sans-serif;
+    font-family: "arial", sans-serif;
     background-color: #FFFFFF;
 }
 
@@ -36,7 +36,7 @@ main {
     border-radius: 15px;
     background-image: url(images/image2.JPG);
     color: #FFFFFF;
-    font-family: "Arial" sans-serif;
+    font-family: "arial", sans-serif;
     font-size:70%;
     text-shadow: 3px 3px 2px #926F92;
     word-wrap: break-word;
@@ -79,7 +79,7 @@ h2 {
     background-color: #A4687A;
     border-radius: 10px;
     font-size: 40px;
-    text-align: 
+    
 }
 
 .about {
